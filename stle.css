@@ -1,0 +1,358 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+#dec1 {
+    position: absolute;
+    left: 820px;
+    margin-top: -15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 330px;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: 15px;
+    position: relative;
+
+}
+
+ul {
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    gap: 55px;
+    font-weight: medium;
+    font-family: "Google Sans", sans-serif;
+    font-size: 17px;
+    margin-right: 400px;
+}
+
+/* @font-face {
+    font-family: Google Sans;
+    src: url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+} */
+
+#b1 {
+    border: none;
+    font-size: 17px;
+    font-family: "Google Sans", sans-serif;
+    display: inline-block;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#b2 {
+    font-size: 17px;
+    font-family: "Google Sans", sans-serif;
+    background-color: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 110px;
+    height: 40px;
+    margin: auto;
+}
+
+#b3 {
+    font-size: 17px;
+    font-family: "Google Sans", sans-serif;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 70px;
+
+}
+
+.container1 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+#p1 {
+    margin-top: -450px;
+    margin-left: 130px;
+    width: 200px;
+    font-size: 17pt;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: rgb(223, 105, 81);
+    white-space: nowrap;
+}
+
+
+#p2 {
+    font-family: "Volkhov", serif;
+    font-size: 40pt;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-left: -190px;
+    margin-top: -150px;
+
+}
+
+#line {
+    text-decoration: underline rgb(231, 66, 66);
+
+}
+
+#p3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: medium;
+    font-size: 10pt;
+    white-space: nowrap;
+    margin-top: 150px;
+    margin-left: -380px;
+
+}
+
+.buttonuper {
+    display: flex;
+    align-items: center;
+    margin-top: 350px;
+    margin-left: -380px;
+    gap: 30px;
+}
+
+#btn4 {
+    background-color: orange;
+    padding: 6px;
+    margin: auto;
+    width: 160px;
+    border-radius: 9px;
+    height: 50px;
+    font-size: 13pt;
+    color: aliceblue;
+    border: none;
+
+
+}
+
+#b5 {
+    background: none;
+    border: none;
+    font-size: 13pt;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    width: 170px;
+}
+
+.fa-circle-play {
+    font-size: 50px;
+}
+
+.trips {
+    display: flex;
+    justify-content: center;
+}
+
+#pl2 {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 420px;
+}
+
+#t1 {
+    position: relative;
+    z-index: 1;
+    margin-right: 200px;
+    margin-left: 30px;
+
+}
+
+#pl1 {
+    position: relative;
+    z-index: 2;
+    margin-top: 80px;
+    margin-left: 150px;
+    margin-right: -300px;
+}
+
+
+/* servics section */
+#tag {
+    font-family: "Poppins", sans-serif;
+    font-size: 14pt;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+#tag2 {
+    font-family: "Volkhov", serif;
+    font-size: 28pt;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -10px;
+}
+
+#dot {
+    position: absolute;
+    margin-left: 1200px;
+
+}
+
+.container2 {
+    margin-left: 220px;
+    display: flex;
+    gap: 70px;
+    align-content: center;
+
+}
+
+.card ,.card5{
+    width: 130px;
+    margin-top: 40px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+    padding: 40px;
+    position: relative;
+    z-index: 1;
+
+}
+
+#tilt,
+#tilt1,
+#tilt2 {
+    font-family: "Google Sans", sans-serif;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+#tilt1 {
+    margin-top: -6px;
+
+}
+
+#plano {
+    margin-top: -20px;
+}
+
+#rec {
+    position: absolute;
+    margin-left: 460px;
+    margin-top: -70px;
+
+
+}
+
+#detail,
+#detail3 {
+    width: 150px;
+
+
+}
+.card5{
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+/* destination  section*/
+
+.container3 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: left;
+}
+
+#textcard {
+    height: 70px;
+    background-color: rgb(252, 252, 252);
+    position: relative;
+    z-index: 1;
+    padding-top: 9px;
+    margin-top: -10px;
+    padding-left: 15px;
+    font-size: 11pt;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+#dre {
+    position: absolute;
+    margin-left: 1050px;
+    margin-top: -250px;
+}
+
+.card3 {
+    position: relative;
+    z-index: 1;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#act1 {
+    border-radius: 10px;
+}
+
+.card1,
+.card2 {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+}
+
+
+/* Footer-Section */
+.container4 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 7px;
+    text-align: center;
+    height: 400px;
+    margin-left: 117px;
+    margin-right: 117px;
+}
+
+#logo2 {
+    margin-top: 110px;
+}
+
+#det {
+    margin-left: 117px;
+    width: 220px;
+    text-align: left;
+}
+
+#line2 {
+    text-align: left;
+    line-height: 2;
+    margin-top: 75px;
+}
+
+.last {
+    margin-top: 95px;
+    margin-right: 117px;
+    text-align: left;
+    line-height: -1;
+
+}
+
+#png {
+    display: flex;
+    gap: 7px;
+    align-items: left;
+}
